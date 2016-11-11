@@ -17,6 +17,8 @@ public class Contact {
     @NotNull
     private String address;
 
+    public Contact() { }
+
     public Contact(String phoneNumber, String name, String address) {
         this.phoneNumber = phoneNumber;
         this.name = name;
@@ -45,5 +47,10 @@ public class Contact {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "{ " + this.phoneNumber + " | " + this.name + " | " + this.getAddress() + " }";
     }
 }
