@@ -13,10 +13,6 @@
     <name>Contact Service</name>
     <description>This service a contact list</description>
 
-    <properties>
-        <log4j2-version>2.5</log4j2-version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>javax.validation</groupId>
@@ -37,17 +33,6 @@
             <groupId>com.sun.el</groupId>
             <artifactId>el-ri</artifactId>
             <version>1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>${log4j2-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>${log4j2-version}</version>
         </dependency>
 
         <dependency>
